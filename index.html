@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trang Web Mẫu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    header, main, footer {
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Chào mừng đến với Project của tôi</h1>
+    <h1>Chào mừng đến với Trang Web Mẫu</h1>
+    <p>Đây là một ví dụ về cách sử dụng các thẻ ngữ nghĩa trong HTML5.</p>
   </header>
+
   <main>
-    <p>Đây là một trang web đơn giản triển khai bằng GitHub Pages.</p>
-    <ul>
-      <li>Mục 1</li>
-      <li>Mục 2</li>
-      <li>Mục 3</li>
-    </ul>
-    <img src="https://via.placeholder.com/150" alt="Hình 1">
-    <img src="https://via.placeholder.com/150" alt="Hình 2">
-    <img src="https://via.placeholder.com/150" alt="Hình 3">
-    <p><a href="https://www.google.com" target="_blank">Liên kết đến Google</a></p>
+    <section>
+      <h2>Danh sách sở thích</h2>
+      <ul>
+        <li>Đọc sách</li>
+        <li>Chụp ảnh</li>
+        <li>Đi du lịch</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Bộ sưu tập hình ảnh</h2>
+      <img src="https://images.unsplash.com/photo-1518933165971-611dbc9c412d" alt="Ảnh 1" width="300" />
+      <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="Ảnh 2" width="300" />
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Ảnh 3" width="300" />
+
+    </section>
+
+    <section>
+      <h2>Nguồn tham khảo</h2>
+      <p>Tham khảo thêm tại: 
+        <a href="https://developer.mozilla.org/vi/docs/Web/HTML" target="_blank">
+          Tài liệu HTML của MDN
+        </a>
+      </p>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 - Trang web mẫu được tạo bởi bạn.</p>
+  </footer>
+
 </body>
 </html>
